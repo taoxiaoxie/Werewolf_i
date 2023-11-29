@@ -106,7 +106,7 @@ class Arena:
             # Add public_prompt to the player config
             if global_prompt is not None:
                 player_config["global_prompt"] = global_prompt
-
+            
             player = Player.from_config(player_config)
             players.append(player)
 

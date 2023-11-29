@@ -4,6 +4,7 @@ from .chameleon import Chameleon
 from .conversation import Conversation, ModeratedConversation
 from .pettingzoo_chess import PettingzooChess
 from .pettingzoo_tictactoe import PettingzooTicTacToe
+from .werewolf import Werewolf
 
 ALL_ENVIRONMENTS = [
     Conversation,
